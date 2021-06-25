@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
+import { getCookie } from "./lib/cookie";
 import "./App.scss";
 import Header from "./containers/Header";
 import Footer from "./containers/Footer";
@@ -17,7 +18,16 @@ class App extends Component {
       foo: "bar",
       resumeData: {},
       sharedData: {},
+      mode: getCookie('mode') === 'true'
     };
+
+    const body = document.body;
+    const dataThemeAttribute = "data-theme";
+    if (this.state.mode) {
+      body.setAttribute(dataThemeAttribute, 'dark');
+    } else {
+      body.setAttribute(dataThemeAttribute, 'light');
+    }
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
@@ -83,7 +93,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData.basic_info} mode={this.state.mode} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
