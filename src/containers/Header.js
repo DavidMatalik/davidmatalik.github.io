@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import { setCookie } from "../lib/cookie";
 
 class Header extends Component {
   titles = [];
 
-  constructor() {
-    super();
-    this.state = { checked: false };
+  constructor(props) {
+    super(props);
+    this.state = { checked: this.props.mode };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
   onThemeSwitchChange(checked) {
     this.setState({ checked });
     this.setTheme();
+    setCookie('mode', checked, 180)
   }
 
   setTheme() {
