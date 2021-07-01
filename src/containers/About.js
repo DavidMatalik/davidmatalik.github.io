@@ -72,8 +72,8 @@ class About extends Component {
                     className="card-body font-trebuchet ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
+                      fontSize: "15px",
+                      lineHeight: "30px",
                     }}
                   >
                     <br />
