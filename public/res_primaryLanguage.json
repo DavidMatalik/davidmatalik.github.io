@@ -53,37 +53,51 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "The Odin bootcamp",
+        "title": "Web Developer",
+        "years": "06.2020 - present",
+        "icon": "fab fa-js experience-icon",
         "mainTech": [
-          "Angular 8/9/10"
+          "JavaScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
+          "React",
+          "Github",
+          "Git",
+          "Scrum",
+          "Firebase",
+          "Node",
+          "NPM",
+          "Mocha",
+          "Jest",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Visual Studio Code",
+          "HTM5",
+          "CSS3",
+          "Learning how to learn"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Hewlett Packard",
+        "title": "Business Informatics Study Programm",
+        "years": "09.2009 - 09.2012",
+        "icon": "fab fa-java experience-icon",
         "mainTech": [
-          "Angular 7/8"
+          "Java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Java",
+          "Java Server Pages",
+          "Eclipse",
+          "Visual Basic",
+          "Relational Databases",
+          "UML",
+          "JQuery",
+          "HTML",
+          "CSS",
+          "Project Management",
+          "Time Management"
         ]
       }
     ],
