@@ -422,6 +422,11 @@ header h1 {
 	transition: all .20s linear;
 }
 
+.card {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .portfolio-card {
 	height: auto;
 	font-size: 15px;
