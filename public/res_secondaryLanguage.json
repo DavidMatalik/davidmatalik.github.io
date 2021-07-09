@@ -4,77 +4,48 @@
       "description": "👋 Hi, ich bin David Matalik, Webentwickler. Ich liebe es moderne Apps mit React zu erstellen. Ich gewährleiste hohe Code-Qualität durch TDD und SOLID Prinzipien. Ich strebe täglich danach mein Programmierfertigkeiten zu verbessern und persönlich zu wachsen. 🚀 Einfach herunterscrollen, um mehr über mich, meine Fähigkeiten und abgeschlossene Projekte zu erfahren!",
       "section_name": {
         "about": "Über mich",
-        "projects": "Projekty",
+        "projects": "Projekte",
         "skills": "Umiejętności",
         "experience": "Doświadczenie"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Todo App",
+        "startDate": "2021",
+        "description": "Ich lernte eine Menge über SOLID Prinzipien während dieses Odin bootcamp Projektes. Ich liebe es organisiert zu sein (Ein Hoch auf GTD!). Deshalb baue ich auch gerade gemeinsam mit einem befreundetem Entwickler eine erweiterte Todo App - mit Firebase backend, und zusätzlicher Funktionalität. Um die Architektur zu verbessern, erstellten wir ein UML Diagramm. Zudem erarbeiteten wir agile Prozesse - speziell auf unser Projekt optimiert.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/todo-app/todo-896-504.png",
+          "images/portfolio/todo-app/todo2-896-504.png"
         ],
-        "url": "",
+        "url": "https://davidmatalik.github.io/todo/",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Wetter App",
+        "startDate": "2021",
+        "description": "Dieses Projekt half mir, mein Verständnis von APIs und asynchronen Funktionen zu vertiefen. Mit dieser Wetter App kann man nach jeder Stadt auf der Welt suchen und bekommt die aktuellen Wetterdaten mit passenden Wetter icons geliefert.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/weather-app/weather-896-504.png",
+          "images/portfolio/weather-app/weather2-896-504.png"
         ],
-        "url": "https://github.com",
+        "url": "https://davidmatalik.github.io/weather-app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "api"
           }
         ]
       }
