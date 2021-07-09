@@ -5,8 +5,9 @@
       "section_name": {
         "about": "Über mich",
         "projects": "Projekte",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "skills": "Fähigkeiten",
+        "experience": "Doświadczenie",
+        "recommendations": "Empfehlungen"
       }
     },
     "projects": [
@@ -83,5 +84,12 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+    "recommendations":
+      {
+        "title": "Richard Steinmetz, Softwareentwickler bei Devex",
+        "text": "Ich arbeitete mit David in verschiedenen Situationen und Bereichen und muss sagen, dass er ein außergewöhnlicher Entwickler und Mensch ist. Da ich mit ihm an einer realen Herausforderung gearbeitet habe, kann ich sagen, dass er sehr schnell eine gerade anstehende Aufgabe versteht. Er behält eine offene Einstellung und treibt den Prozess mit wohlüberlegten Fragen voran, auch wenn der Bereich oder die Technologie neu für ihn ist! Als Davids Coach bin ich immer darüber erstaunt mit welcher Ausdauer und Energie er Probleme löst und neue Dinge lernt. Er  packt jede Aufgabe gewissenhaft und mit Hingabe an. Und in diesem Prozess lässt er keine Gelegenheit aus, um aktiv die Kommunikationgestaltung zu verbessern sowie ehrliches und konstruktives Feedback zu geben. Es ist eine wahre Freude mit David zusammen zu arbeiten und jedes Team kann sich ungeheuer glücklich schätzen ihn mit an Bord zu haben!",
+        "image": "images/recommendation/richard-steinmetz.png"
+      }
   }
+  
