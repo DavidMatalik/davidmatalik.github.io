@@ -1,9 +1,9 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Apps erstellen für fürsorgliche Lebensverbesserer. Durch gewissenhaftes Programmieren und achtsame Kommunikation.",
+      "description": "👋 Hi, ich bin David Matalik, Webentwickler. Ich liebe es moderne Apps mit React zu erstellen. Ich gewährleiste hohe Code-Qualität durch TDD und SOLID Prinzipien. Ich strebe täglich danach mein Programmierfertigkeiten zu verbessern und persönlich zu wachsen. 🚀 Einfach herunterscrollen, um mehr über mich, meine Fähigkeiten und abgeschlossene Projekte zu erfahren!",
       "section_name": {
-        "about": "O mnie",
+        "about": "Über mich",
         "projects": "Projekty",
         "skills": "Umiejętności",
         "experience": "Doświadczenie"
