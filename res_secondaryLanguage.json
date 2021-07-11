@@ -1,80 +1,52 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Apps erstellen für fürsorgliche Lebensverbesserer. Durch gewissenhaftes Programmieren und achtsame Kommunikation.",
+      "description": "👋 Hi, ich bin David Matalik, Webentwickler. Ich liebe es moderne Apps mit React zu erstellen. Ich gewährleiste hohe Code-Qualität durch TDD und SOLID Prinzipien. Ich strebe täglich danach mein Programmierfertigkeiten zu verbessern und persönlich zu wachsen. 🚀 Einfach herunterscrollen, um mehr über mich, meine Fähigkeiten und abgeschlossene Projekte zu erfahren!",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Über mich",
+        "projects": "Projekte",
+        "skills": "Fähigkeiten",
+        "experience": "Doświadczenie",
+        "recommendations": "Empfehlungen"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Todo App",
+        "startDate": "2021",
+        "description": "Ich lernte eine Menge über SOLID Prinzipien während dieses Odin bootcamp Projektes. Ich liebe es organisiert zu sein (Ein Hoch auf GTD!). Deshalb baue ich auch gerade gemeinsam mit einem befreundetem Entwickler eine erweiterte Todo App - mit Firebase backend, und zusätzlicher Funktionalität. Um die Architektur zu verbessern, erstellten wir ein UML Diagramm. Zudem erarbeiteten wir agile Prozesse - speziell auf unser Projekt optimiert.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/todo-app/todo-896-504.png",
+          "images/portfolio/todo-app/todo2-896-504.png"
         ],
-        "url": "",
+        "url": "https://davidmatalik.github.io/todo/",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Wetter App",
+        "startDate": "2021",
+        "description": "Dieses Projekt half mir, mein Verständnis von APIs und asynchronen Funktionen zu vertiefen. Mit dieser Wetter App kann man nach jeder Stadt auf der Welt suchen und bekommt die aktuellen Wetterdaten mit passenden Wetter icons geliefert.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/weather-app/weather-896-504.png",
+          "images/portfolio/weather-app/weather2-896-504.png"
         ],
-        "url": "https://github.com",
+        "url": "https://davidmatalik.github.io/weather-app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "api"
           }
         ]
       }
@@ -112,5 +84,12 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+    "recommendations":
+      {
+        "title": "Richard Steinmetz, Softwareentwickler bei Devex",
+        "text": "Ich arbeitete mit David in verschiedenen Situationen und Bereichen und muss sagen, dass er ein außergewöhnlicher Entwickler und Mensch ist. Da ich mit ihm an einer realen Herausforderung gearbeitet habe, kann ich sagen, dass er sehr schnell eine gerade anstehende Aufgabe versteht. Er behält eine offene Einstellung und treibt den Prozess mit wohlüberlegten Fragen voran, auch wenn der Bereich oder die Technologie neu für ihn ist! Als Davids Coach bin ich immer darüber erstaunt mit welcher Ausdauer und Energie er Probleme löst und neue Dinge lernt. Er  packt jede Aufgabe gewissenhaft und mit Hingabe an. Und in diesem Prozess lässt er keine Gelegenheit aus, um aktiv die Kommunikationgestaltung zu verbessern sowie ehrliches und konstruktives Feedback zu geben. Es ist eine wahre Freude mit David zusammen zu arbeiten und jedes Team kann sich ungeheuer glücklich schätzen ihn mit an Bord zu haben!",
+        "image": "images/recommendation/richard-steinmetz.png"
+      }
   }
+  
