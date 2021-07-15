@@ -73,14 +73,14 @@
           "Jest",
           "Bootstrap",
           "Visual Studio Code",
-          "HTM5",
+          "HTML5",
           "CSS3",
           "Learning how to learn"
         ]
       },
       {
-        "company": "Hewlett Packard",
-        "title": "Business Informatics Study Programm",
+        "company": "Hewlett Packard GmbH in Böblingen",
+        "title": "Student Business Informatics, Bachelor of Science",
         "years": "09.2009 - 09.2012",
         "icon": "fab fa-java experience-icon",
         "mainTech": [
