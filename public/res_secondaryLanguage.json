@@ -6,7 +6,7 @@
         "about": "Über mich",
         "projects": "Projekte",
         "skills": "Fähigkeiten",
-        "experience": "Doświadczenie",
+        "experience": "Erfahrungen",
         "recommendations": "Empfehlungen"
       }
     },
@@ -53,35 +53,51 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "The Odin Project Bootcamp",
+        "title": "Webentwickler",
+        "years": "06.2020 - heute",
+        "icon": "fab fa-js experience-icon",
         "mainTech": [
-          "Angular 8/9/10"
+          "JavaScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
+          "React",
+          "Github",
+          "Git",
+          "Scrum",
+          "Firebase",
+          "Node",
+          "NPM",
+          "Mocha",
+          "Jest",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Visual Studio Code",
+          "HTML5",
+          "CSS3",
+          "Learning how to learn"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Hewlett Packard GmbH in Böblingen",
+        "title": "Wirtschaftsinformatik-Student, Abschluss Bachelor of Science",
+        "years": "09.2009 - 09.2012",
+        "icon": "fab fa-java experience-icon",
         "mainTech": [
-          "Angular 7/8"
+          "Java"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Java",
+          "Java Server Pages",
+          "Eclipse",
+          "Visual Basic",
+          "Relationale Datenbanken",
+          "UML",
+          "JQuery",
+          "HTML",
+          "CSS",
+          "Projekt-Management",
+          "Zeit-Management"
         ]
       }
     ],
