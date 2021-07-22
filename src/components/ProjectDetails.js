@@ -19,16 +19,16 @@ class ProjectDetails extends Component {
       var description = this.props.data.description;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
+        var tech = technologies.map((technology, i) => {
           // For using icon from iconify
-          if (icons.iconify){
+          if (technology.iconify){
             return (
               <li className="list-inline-item mx-3" key={i}>
                 <span>
                   <div className="text-center">
-                    <Icon icon={obj[icons.iconify]} width="40" height="40" />
+                    <Icon icon={obj[technology.iconify]} width="30" height="30" />
                       <div className="text-center" style={{ fontSize: "70%" }}>
-                        App Prog. Interface
+                        {technology.name}
                       </div>
                   </div>
                 </span>
@@ -40,9 +40,9 @@ class ProjectDetails extends Component {
                 <li className="list-inline-item mx-3" key={i}>
                   <span>
                     <div className="text-center">
-                      <i className={icons.class} style={{ fontSize: "300%" }}>
+                      <i className={technology.class} style={{ fontSize: "300%" }}>
                         <p className="text-center" style={{ fontSize: "30%" }}>
-                          {icons.name}
+                          {technology.name}
                         </p>
                       </i>
                     </div>
