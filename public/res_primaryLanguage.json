@@ -46,6 +46,7 @@
             "name": "JavaScript"
           },
           {
+            "iconify": "api",
             "name": "api"
           }
         ]
