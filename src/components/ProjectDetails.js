@@ -12,18 +12,21 @@ class ProjectDetails extends Component {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
+      const obj = {
+        'api': api1,
+      }
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           // For using icon from iconify
-          if (icons.name === "api"){
+          if (icons.iconify){
             return (
               <li className="list-inline-item mx-3" key={i}>
                 <span>
                   <div className="text-center">
-                    <Icon icon={api1} width="40" height="40" />
+                    <Icon icon={obj[icons.iconify]} width="40" height="40" />
                       <div className="text-center" style={{ fontSize: "70%" }}>
                         App Prog. Interface
                       </div>
@@ -31,6 +34,7 @@ class ProjectDetails extends Component {
                 </span>
               </li>
             );
+          // for using icon from devicon
           } else {
               return (
                 <li className="list-inline-item mx-3" key={i}>
