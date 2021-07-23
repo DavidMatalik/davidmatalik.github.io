@@ -3,21 +3,28 @@ import RecommendationDetails from "../components/RecommendationDetails";
 
 class Recommendations extends Component {
     render() {
+        let sectionName
         if (this.props.resumeBasicInfo) {
-            var sectionName = this.props.resumeBasicInfo.section_name.recommendations;
+          sectionName = this.props.resumeBasicInfo.section_name.recommendations;
         }
+
+        let recos
         if (this.props.resumeRecommendations) {
-          var recoTitle = this.props.resumeRecommendations.title;
-          var recoText = this.props.resumeRecommendations.text;
-          var recoImage = this.props.resumeRecommendations.image;
+          recos = this.props.resumeRecommendations.map((reco, i) => {
+            const title = reco.title;
+            const text = reco.text;
+            const image = reco.image;
+            return <RecommendationDetails key={i} title={title} text={text} image={image} />
+          })
         }
+
         return (
             <section id="recommendations">
                 <div className="col-md-12">
                     <h1 className="section-title" style={{ color: "black" }}>
                         <span>{sectionName}</span>
                     </h1>
-                    <RecommendationDetails title={recoTitle} text={recoText} image={recoImage} />
+                    {recos}
                 </div>
             </section>
         )
