@@ -3,7 +3,7 @@ import React, {Component} from "react";
 class RecommendationDetails extends Component {
   render() {    
     return (
-      <div className="card mb-0">
+      <div className="card mb-5">
         <div className="row g-0 p-4">
           <div className="text-center col-md-3 col-lg-2 my-auto py-4">
             <img src={this.props.image} alt="Richard Steinmetz"/>
