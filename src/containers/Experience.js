@@ -88,6 +88,7 @@ class Experience extends Component {
             />
           </VerticalTimeline>
         </div>
+        <div className="col-md-12 mt-5 pt-5 text-center experience-link"><a href="https://www.linkedin.com/in/david-matalik-865325216/">More CV Details</a></div>
       </section>
     );
   }
