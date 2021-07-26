@@ -12,6 +12,30 @@
     },
     "projects": [
       {
+        "title": "Careship",
+        "startDate": "2021",
+        "description": "Careship is a non-violent variation of the popular game battleship. I used TDD (with Jest) the first time for the Careship game. To separate the view from the logic The PubSub pattern is used. I learned a lot about the drag and drop API as well as doing drag and drop with mouse events.",
+        "images": [
+          "images/portfolio/careship/careship-896-504.png",
+          "images/portfolio/careship/careship2-896-504.png"
+        ],
+        "url": "https://davidmatalik.github.io/careship/",
+        "technologies": [
+          {
+            "iconify": "jest",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          },
+          {
+            "class": "devicon-git-plain",
+            "name": "Git"
+          }
+        ]
+      },
+      {
         "title": "Todo App",
         "startDate": "2021",
         "description": "I learned a lot about SOLID principles doing this Odin bootcamp project. I love to be organized (GTD rocks!). That is why with a friend developer I build an extended todo app - with Firebase background structure, and more functionality. We also created an UML diagramm for optimizing the architecture.",
@@ -46,7 +70,8 @@
             "name": "JavaScript"
           },
           {
-            "name": "api"
+            "iconify": "api",
+            "name": "App. Prog. Interface"
           }
         ]
       }
@@ -73,14 +98,14 @@
           "Jest",
           "Bootstrap",
           "Visual Studio Code",
-          "HTM5",
+          "HTML5",
           "CSS3",
           "Learning how to learn"
         ]
       },
       {
-        "company": "Hewlett Packard",
-        "title": "Business Informatics Study Programm",
+        "company": "Hewlett Packard GmbH in Böblingen",
+        "title": "Student Business Informatics, Bachelor of Science",
         "years": "09.2009 - 09.2012",
         "icon": "fab fa-java experience-icon",
         "mainTech": [
