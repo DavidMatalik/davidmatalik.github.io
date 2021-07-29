@@ -8,9 +8,9 @@ class Recommendations extends Component {
           sectionName = this.props.resumeBasicInfo.section_name.recommendations;
         }
 
-        let recos
+        let recommendations
         if (this.props.resumeRecommendations) {
-          recos = this.props.resumeRecommendations.map((reco, i) => {
+          recommendations = this.props.resumeRecommendations.map((reco, i) => {
             const title = reco.title;
             const text = reco.text;
             const image = reco.image;
@@ -24,7 +24,7 @@ class Recommendations extends Component {
                     <h1 className="section-title" style={{ color: "black" }}>
                         <span>{sectionName}</span>
                     </h1>
-                    {recos}
+                    {recommendations}
                 </div>
             </section>
         )
