@@ -12,6 +12,30 @@
     },
     "projects": [
       {
+        "title": "Careship",
+        "startDate": "2021",
+        "description": "Careship ist eine gewaltfreie Variante des berühmten Spiels \"Schiffe versenken\". Ich verwendete TDD (mit Jest) das erste Mal bei dieser Anwendung. Um den logischen Code vom gestalterischen Code zu trennen, wurde das PubSub Muster verwendet. Ich lernte eine Menge über die drag und drop API, als auch darüber drag und drop Effekte mit Maus-Ereignissen hinzubekommen.",
+        "images": [
+          "images/portfolio/careship/careship-896-504.png",
+          "images/portfolio/careship/careship2-896-504.png"
+        ],
+        "url": "https://davidmatalik.github.io/careship/",
+        "technologies": [
+          {
+            "iconify": "jest",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          },
+          {
+            "class": "devicon-git-plain",
+            "name": "Git"
+          }
+        ]
+      },
+      {
         "title": "Todo App",
         "startDate": "2021",
         "description": "Ich lernte eine Menge über SOLID Prinzipien während dieses Odin bootcamp Projektes. Ich liebe es organisiert zu sein (Ein Hoch auf GTD!). Deshalb baue ich auch gerade gemeinsam mit einem befreundetem Entwickler eine erweiterte Todo App - mit Firebase backend, und zusätzlicher Funktionalität. Um die Architektur zu verbessern, erstellten wir ein UML Diagramm. Zudem erarbeiteten wir agile Prozesse - speziell auf unser Projekt optimiert.",
