@@ -126,10 +126,16 @@
         ]
       }
     ],
-    "recommendations": 
+    "recommendations": [
       {
         "title": "Richard Steinmetz, Software Engineer at Devex",
         "text": "I've worked with David in different situations and settings and I must say that he is a remarkable engineer, learner and human being. Having pair programmed with him on a real-world challenge, I can tell that he really quickly gets into understanding the task at hand. He keeps an open mindset and guides the process with great thoughtful questions, even being new to a domain or technology! As David's coach I'm always amazed about his persistence and drive to solve problems and learn new things. He tackles every task conscientiously and with dedication. And while in the process, he never misses an opportunity to take active part in improving communication processes and give actionable honest feedback to make anything that you are working on another tad better. It's a real pleasure to work together with David and you'd be immensily happy to have him on board!",
         "image": "images/recommendation/richard-steinmetz.png"
+      },
+      {
+        "title": "Christian Strozniak, Software Engineer at Awisto",
+        "text": "I'm working with David on a plain javascript app. Both of us aim to get closer to the various aspects of programming in a playful way as a team. I really enjoy working with David. We hosted our project on github and we use all available possibilities to make progress with our project. Sprint planning and pull requests at our weekly meetings is a joy every time. David works very conscientiously and if I work sloppily from time to time, David notices it immediately and corrects me. My work benefits from that. I can talk shop with David until both of our heads are spinning. What I always find remarkable is how David keeps calm when things get complicated sometimes and we both notice that we are too entangled. Then somehow David always manages to look at things from a different point of view and to lead us to a basically simple solution. I met David a few years ago at a Vipassana course and was already enthusiastic about his honesty, his empathy and his constant interest in his counterpart. I'm really happy about the time to work with David in the team and I definitely don't want to miss it anymore when he comes up with the latest technologies or ideas.",
+        "image": "images/recommendation/christian-strozniak.png"
       }
+    ]
   }
