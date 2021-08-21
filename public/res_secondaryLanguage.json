@@ -52,6 +52,10 @@
           {
             "class": "devicon-webpack-plain",
             "name": "Webpack"
+          },
+          {
+            "iconify": "logoNpm",
+            "name": "Node P. M."
           }
         ]
       },

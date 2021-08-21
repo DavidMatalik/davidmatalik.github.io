@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import api1 from '@iconify-icons/carbon/api-1';
 import jestIcon from '@iconify-icons/file-icons/jest';
+import logoNpm from '@iconify/icons-ion/logo-npm';
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
@@ -15,7 +16,8 @@ class ProjectDetails extends Component {
       const images = this.props.data.images;
       const obj = {
         'api': api1,
-        'jest': jestIcon
+        'jest': jestIcon,
+        'logoNpm': logoNpm
       }
       var title = this.props.data.title;
       var description = this.props.data.description;
