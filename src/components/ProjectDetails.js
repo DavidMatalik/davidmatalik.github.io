@@ -31,7 +31,7 @@ class ProjectDetails extends Component {
                 <span>
                   <div className="text-center">
                     <Icon icon={obj[technology.iconify]} width="30" height="30" />
-                      <div className="text-center" style={{ fontSize: "70%" }}>
+                      <div className="text-center" style={{ fontSize: "90%" }}>
                         {technology.name}
                       </div>
                   </div>
@@ -45,7 +45,7 @@ class ProjectDetails extends Component {
                   <span>
                     <div className="text-center">
                       <i className={technology.class} style={{ fontSize: "300%" }}>
-                        <p className="text-center" style={{ fontSize: "30%" }}>
+                        <p className="text-center icon-font" style={{ fontSize: "30%" }}>
                           {technology.name}
                         </p>
                       </i>
