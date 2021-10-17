@@ -12,6 +12,30 @@
     },
     "projects": [
       {
+        "title": "Memory Training",
+        "startDate": "2021",
+        "description": "Memory Cards ist ein Spiel, das dabei hilft sein Gedächtnis zu trainieren. Ich verwendete für die Erstellung React mit functional und styled components. Außerdem lernte ich mehr über die CSS3 grid Eigenschaft, was dabei half das Layout responsive zu gestalten.",
+        "images": [
+          "images/portfolio/memory-game/memory-896-504.png",
+          "images/portfolio/memory-game/memory2-896-504.png"
+        ],
+        "url": "https://davidmatalik.github.io/memory-cards/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-git-plain",
+            "name": "Git"
+          }
+        ]
+      },
+      {
         "title": "Careship",
         "startDate": "2021",
         "description": "Careship ist eine gewaltfreie Variante des berühmten Spiels \"Schiffe versenken\". Ich verwendete TDD (mit Jest) das erste Mal bei dieser Anwendung. Um den logischen Code vom gestalterischen Code zu trennen, wurde das PubSub Muster verwendet. Ich lernte eine Menge über die drag und drop API, als auch darüber drag und drop Effekte mit Maus-Ereignissen hinzubekommen.",
