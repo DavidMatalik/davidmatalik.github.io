@@ -1,169 +1,228 @@
 {
-    "basic_info": {
-      "description_header": "Apps erstellen für fürsorgliche Lebensverbesserer. Durch gewissenhaftes Programmieren und achtsame Kommunikation.",
-      "description": "👋 Hi, ich bin David Matalik, Webentwickler. Ich liebe es moderne Apps mit React zu erstellen. Ich gewährleiste hohe Code-Qualität durch TDD und SOLID Prinzipien. Ich strebe täglich danach meine Programmierfertigkeiten zu verbessern und persönlich zu wachsen. 🚀 Fun Fact: Ich liebe Experimente - esse Kiwis mit Schale (wie ein Apfel), manchmal auch Bananen (nicht wie ein Apfel 😀). Einfach herunterscrollen, um mehr über mich, meine Fähigkeiten und abgeschlossene Projekte zu erfahren!",
-      "section_name": {
-        "about": "Über mich",
-        "projects": "Projekte",
-        "skills": "Fähigkeiten",
-        "experience": "Erfahrungen",
-        "recommendations": "Empfehlungen"
-      }
+  "basic_info": {
+    "description_header": "Apps erstellen für fürsorgliche Lebensverbesserer. Durch gewissenhaftes Programmieren und achtsame Kommunikation.",
+    "description": "👋 Hi, ich bin David Matalik, Webentwickler. Ich liebe es moderne Apps mit React zu erstellen. Ich gewährleiste hohe Code-Qualität durch TDD und SOLID Prinzipien. Ich strebe täglich danach meine Programmierfertigkeiten zu verbessern und persönlich zu wachsen. 🚀 Es ist sehr erfüllend für mich anderen dabei zu helfen ihre Prgrammier-Skills zu verbessern, z.B. als Mentor bei Exercism. Aktuell arbeite ich als React-Frontend-Entwickler an nachhaltigen Energie-Lösungen in einem Praktikum bei der Firma Lumenaza. Fun Fact: Ich liebe Experimente - esse Kiwis mit Schale (wie ein Apfel), manchmal auch Bananen (nicht wie ein Apfel 😀). Einfach herunterscrollen, um mehr über mich, meine Fähigkeiten und abgeschlossene Projekte zu erfahren!",
+    "section_name": {
+      "about": "Über mich",
+      "projects": "Projekte",
+      "skills": "Fähigkeiten",
+      "experience": "Erfahrungen",
+      "recommendations": "Empfehlungen"
+    }
+  },
+  "projects": [
+    {
+      "title": "Goodjobs-Klon",
+      "startDate": "2022",
+      "description": "Dieser Goodjobs-Klon ist eine Job-Suche-Plattform mit einer stabilen Login-Fuktionalität. Diese App ist komplett responsive. Ich nutzte React und mehrere Firebase Funktionalitäten(Firestore, Auth, Storage, Hosting), um diese App zu bauen. Ich habe außerdem viel über Error-Handling gelernt und toastify verwendet, um dem Nutzer Fehlermeldungen anzuzeigen.",
+      "images": [
+        "images/portfolio/goodjobs/goodjobs-896-504.png",
+        "images/portfolio/goodjobs/goodjobs2-896-504.png",
+        "images/portfolio/goodjobs/goodjobs3-896-504.png",
+        "images/portfolio/goodjobs/goodjobs4-896-504.png"
+      ],
+      "url": "https://goodjobs-c213f.web.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "iconify": "firebase",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "Git"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Memory Training",
-        "startDate": "2021",
-        "description": "Memory Cards ist ein Spiel, das dabei hilft sein Gedächtnis zu trainieren. Ich verwendete für die Erstellung React mit functional und styled components. Außerdem lernte ich mehr über die CSS3 grid Eigenschaft, was dabei half das Layout responsive zu gestalten.",
-        "images": [
-          "images/portfolio/memory-game/memory-896-504.png",
-          "images/portfolio/memory-game/memory2-896-504.png"
-        ],
-        "url": "https://davidmatalik.github.io/memory-cards/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          },
-          {
-            "class": "devicon-git-plain",
-            "name": "Git"
-          }
-        ]
-      },
-      {
-        "title": "Careship",
-        "startDate": "2021",
-        "description": "Careship ist eine gewaltfreie Variante des berühmten Spiels \"Schiffe versenken\". Ich verwendete TDD (mit Jest) das erste Mal bei dieser Anwendung. Um den logischen Code vom gestalterischen Code zu trennen, wurde das PubSub Muster verwendet. Ich lernte eine Menge über die drag und drop API, als auch darüber drag und drop Effekte mit Maus-Ereignissen hinzubekommen.",
-        "images": [
-          "images/portfolio/careship/careship-896-504.png",
-          "images/portfolio/careship/careship2-896-504.png"
-        ],
-        "url": "https://davidmatalik.github.io/careship/",
-        "technologies": [
-          {
-            "iconify": "jest",
-            "name": "Jest"
-          },
-          {
-            "class": "devicon-webpack-plain",
-            "name": "Webpack"
-          },
-          {
-            "class": "devicon-git-plain",
-            "name": "Git"
-          }
-        ]
-      },
-      {
-        "title": "Todo App",
-        "startDate": "2021",
-        "description": "Ich lernte eine Menge über SOLID Prinzipien während dieses Odin bootcamp Projektes. Ich liebe es organisiert zu sein (Ein Hoch auf GTD!). Deshalb baue ich auch gerade gemeinsam mit einem befreundetem Entwickler eine erweiterte Todo App - mit Firebase backend, und zusätzlicher Funktionalität. Um die Architektur zu verbessern, erstellten wir ein UML Diagramm. Zudem erarbeiteten wir agile Prozesse - speziell auf unser Projekt optimiert.",
-        "images": [
-          "images/portfolio/todo-app/todo-896-504.png",
-          "images/portfolio/todo-app/todo2-896-504.png"
-        ],
-        "url": "https://davidmatalik.github.io/todo/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-webpack-plain",
-            "name": "Webpack"
-          },
-          {
-            "iconify": "logoNpm",
-            "name": "Node P. M."
-          }
-        ]
-      },
-      {
-        "title": "Wetter App",
-        "startDate": "2021",
-        "description": "Dieses Projekt half mir, mein Verständnis von APIs und asynchronen Funktionen zu vertiefen. Mit dieser Wetter App kann man nach jeder Stadt auf der Welt suchen und bekommt die aktuellen Wetterdaten mit passenden Wetter icons geliefert.",
-        "images": [
-          "images/portfolio/weather-app/weather-896-504.png",
-          "images/portfolio/weather-app/weather2-896-504.png"
-        ],
-        "url": "https://davidmatalik.github.io/weather-app/",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "name": "api"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "The Odin Project Bootcamp",
-        "title": "Webentwickler",
-        "years": "06.2020 - heute",
-        "icon": "fab fa-js experience-icon",
-        "mainTech": [
-          "JavaScript"
-        ],
-        "technologies": [
-          "JavaScript",
-          "React",
-          "Github",
-          "Git",
-          "Scrum",
-          "Firebase",
-          "Node",
-          "NPM",
-          "Mocha",
-          "Jest",
-          "Bootstrap",
-          "Visual Studio Code",
-          "HTML5",
-          "CSS3",
-          "Learning how to learn"
-        ]
-      },
-      {
-        "company": "Hewlett Packard GmbH in Böblingen",
-        "title": "Wirtschaftsinformatik-Student, Abschluss Bachelor of Science",
-        "years": "09.2009 - 09.2012",
-        "icon": "fab fa-java experience-icon",
-        "mainTech": [
-          "Java"
-        ],
-        "technologies": [
-          "Java",
-          "Java Server Pages",
-          "Eclipse",
-          "Visual Basic",
-          "Relationale Datenbanken",
-          "UML",
-          "JQuery",
-          "HTML",
-          "CSS",
-          "Projekt-Management",
-          "Zeit-Management"
-        ]
-      }
-    ],
-    "recommendations": [
-      {
-        "title": "Richard Steinmetz, Softwareentwickler bei Devex",
-        "text": "Ich arbeitete mit David in verschiedenen Situationen und Bereichen und muss sagen, dass er ein außergewöhnlicher Entwickler und Mensch ist. Da ich mit ihm an einer realen Herausforderung gearbeitet habe, kann ich sagen, dass er sehr schnell eine gerade anstehende Aufgabe versteht. Er behält eine offene Einstellung und treibt den Prozess mit wohlüberlegten Fragen voran, auch wenn der Bereich oder die Technologie neu für ihn ist! Als Davids Coach bin ich immer darüber erstaunt mit welcher Ausdauer und Energie er Probleme löst und neue Dinge lernt. Er  packt jede Aufgabe gewissenhaft und mit Hingabe an. Und in diesem Prozess lässt er keine Gelegenheit aus, um aktiv die Kommunikationgestaltung zu verbessern sowie ehrliches und konstruktives Feedback zu geben. Es ist eine wahre Freude mit David zusammen zu arbeiten und jedes Team kann sich ungeheuer glücklich schätzen ihn mit an Bord zu haben!",
-        "image": "images/recommendation/richard-steinmetz.png"
-      },
-      {
-        "title": "Christian Strozniak, Softwareentwickler bei Awisto",
-        "text": "Ich arbeite mit David gemeinsam an einer plain javascript app. Unser beider Ziel ist es, spielerisch und im Team den verschiedenen Aspekten der Programmierung näher zukommen. Das Arbeiten mit David macht mir sehr viel Spass. Wir haben unser Projekt auf github gehostet und wir nutzen dort alle Möglichkeiten aus um unser Projekt voranzutreiben. Sprintplanung und Pull Requests bei unseren wöchentlichen Meetings ist jedes Mal eine Freude. David arbeitet da sehr gewissenhaft und sollte ich ab und an schlampig arbeiten, merkt es David sofort und korrigiert mich, was meiner Arbeit wiederum zu gute kommt. Mit David kann ich fachsimpeln bis un beiden der Kopf raucht. Was ich dabei immer wieder bemerkenswert finde, ist, wie David die Ruhe bewahrt, wenn die Dinge manchmal kompliziert werden und wir beide merken, dass wir uns zu sehr verstrickt haben, dann schafft es David irgendwie immer die Dinge aus einen anderen Blickwinkel zu betrachten und uns dann doch zu einer im Grunde simplen Lösung zu führen. Ich habe David vor ein paar Jahren bei einem Vipassana Kurs kennengelernt und war damals schon begeistert von seiner Ehrlichkeit, seinem Einfühlungsvermögen und seinem stetigen Interesse an seinem Gegenüber. Ich bin wirklich froh über die Zeit mit David im Team zu arbeiten und möchte es schon gar nicht mehr missen, wenn er mit den neusten Technologien oder Ideen um die Ecke kommt.",
-        "image": "images/recommendation/christian-strozniak.png"
-      }
-    ]
-  }
-  
+    {
+      "title": "Memory Training",
+      "startDate": "2021",
+      "description": "Memory Cards ist ein Spiel, das dabei hilft sein Gedächtnis zu trainieren. Ich verwendete für die Erstellung React mit functional und styled components. Außerdem lernte ich mehr über die CSS3 grid Eigenschaft, was dabei half das Layout responsive zu gestalten.",
+      "images": [
+        "images/portfolio/memory-game/memory-896-504.png",
+        "images/portfolio/memory-game/memory2-896-504.png"
+      ],
+      "url": "https://davidmatalik.github.io/memory-cards/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Careship",
+      "startDate": "2021",
+      "description": "Careship ist eine gewaltfreie Variante des berühmten Spiels \"Schiffe versenken\". Ich verwendete TDD (mit Jest) das erste Mal bei dieser Anwendung. Um den logischen Code vom gestalterischen Code zu trennen, wurde das PubSub Muster verwendet. Ich lernte eine Menge über die drag und drop API, als auch darüber drag und drop Effekte mit Maus-Ereignissen hinzubekommen.",
+      "images": [
+        "images/portfolio/careship/careship-896-504.png",
+        "images/portfolio/careship/careship2-896-504.png"
+      ],
+      "url": "https://davidmatalik.github.io/careship/",
+      "technologies": [
+        {
+          "iconify": "jest",
+          "name": "Jest"
+        },
+        {
+          "class": "devicon-webpack-plain",
+          "name": "Webpack"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
+    },
+    {
+      "title": "Todo App",
+      "startDate": "2021",
+      "description": "Ich lernte eine Menge über SOLID Prinzipien während dieses Odin bootcamp Projektes. Ich liebe es organisiert zu sein (Ein Hoch auf GTD!). Deshalb baue ich auch gerade gemeinsam mit einem befreundetem Entwickler eine erweiterte Todo App - mit Firebase backend, und zusätzlicher Funktionalität. Um die Architektur zu verbessern, erstellten wir ein UML Diagramm. Zudem erarbeiteten wir agile Prozesse - speziell auf unser Projekt optimiert.",
+      "images": [
+        "images/portfolio/todo-app/todo-896-504.png",
+        "images/portfolio/todo-app/todo2-896-504.png"
+      ],
+      "url": "https://davidmatalik.github.io/todo/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-webpack-plain",
+          "name": "Webpack"
+        },
+        {
+          "iconify": "logoNpm",
+          "name": "Node P. M."
+        }
+      ]
+    },
+    {
+      "title": "Wetter App",
+      "startDate": "2021",
+      "description": "Dieses Projekt half mir, mein Verständnis von APIs und asynchronen Funktionen zu vertiefen. Mit dieser Wetter App kann man nach jeder Stadt auf der Welt suchen und bekommt die aktuellen Wetterdaten mit passenden Wetter icons geliefert.",
+      "images": [
+        "images/portfolio/weather-app/weather-896-504.png",
+        "images/portfolio/weather-app/weather2-896-504.png"
+      ],
+      "url": "https://davidmatalik.github.io/weather-app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "api"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Lumenaza GmbH - Internship",
+      "title": "React Frontend Entwickler",
+      "years": "12.2021 - heute",
+      "icon": "fab fa-js experience-icon",
+      "mainTech": ["React"],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "React Styled components",
+        "React testing library",
+        "Redux",
+        "Gitlab",
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Bootstrap",
+        "Django"
+      ]
+    },
+    {
+      "company": "Exercism: +15 Empfehlungen",
+      "title": "JavaScript Code Mentor",
+      "years": "08.2021 - heute",
+      "icon": "fab fa-js experience-icon",
+      "mainTech": ["JavaScript"],
+      "technologies": [
+        "JavaScript",
+        "Lesbarer Code",
+        "Coding Prinzipien",
+        "Programmieren beibringen",
+        "Sauberer Code",
+        "Array-Funktionen",
+        "Reguläre Ausdrücke",
+        "JavaScript Vergleiche",
+        "Hilfsfunktionen"
+      ]
+    },
+    {
+      "company": "The Odin Project Bootcamp",
+      "title": "Webentwickler",
+      "years": "06.2020 - heute",
+      "icon": "fab fa-js experience-icon",
+      "mainTech": ["JavaScript"],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Github",
+        "Git",
+        "Scrum",
+        "Firebase",
+        "Node",
+        "NPM",
+        "Mocha",
+        "Jest",
+        "Bootstrap",
+        "Visual Studio Code",
+        "HTML5",
+        "CSS3",
+        "Learning how to learn"
+      ]
+    },
+    {
+      "company": "Hewlett Packard GmbH in Böblingen",
+      "title": "Wirtschaftsinformatik-Student, Abschluss Bachelor of Science",
+      "years": "09.2009 - 09.2012",
+      "icon": "fab fa-java experience-icon",
+      "mainTech": ["Java"],
+      "technologies": [
+        "Java",
+        "Java Server Pages",
+        "Eclipse",
+        "Visual Basic",
+        "Relationale Datenbanken",
+        "UML",
+        "JQuery",
+        "HTML",
+        "CSS",
+        "Projekt-Management",
+        "Zeit-Management"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Richard Steinmetz, Softwareentwickler bei Devex",
+      "text": "Ich arbeitete mit David in verschiedenen Situationen und Bereichen und muss sagen, dass er ein außergewöhnlicher Entwickler und Mensch ist. Da ich mit ihm an einer realen Herausforderung gearbeitet habe, kann ich sagen, dass er sehr schnell eine gerade anstehende Aufgabe versteht. Er behält eine offene Einstellung und treibt den Prozess mit wohlüberlegten Fragen voran, auch wenn der Bereich oder die Technologie neu für ihn ist! Als Davids Coach bin ich immer darüber erstaunt mit welcher Ausdauer und Energie er Probleme löst und neue Dinge lernt. Er  packt jede Aufgabe gewissenhaft und mit Hingabe an. Und in diesem Prozess lässt er keine Gelegenheit aus, um aktiv die Kommunikationgestaltung zu verbessern sowie ehrliches und konstruktives Feedback zu geben. Es ist eine wahre Freude mit David zusammen zu arbeiten und jedes Team kann sich ungeheuer glücklich schätzen ihn mit an Bord zu haben!",
+      "image": "images/recommendation/richard-steinmetz.png"
+    },
+    {
+      "title": "Christian Strozniak, Softwareentwickler bei Awisto",
+      "text": "Ich arbeite mit David gemeinsam an einer plain javascript app. Unser beider Ziel ist es, spielerisch und im Team den verschiedenen Aspekten der Programmierung näher zukommen. Das Arbeiten mit David macht mir sehr viel Spass. Wir haben unser Projekt auf github gehostet und wir nutzen dort alle Möglichkeiten aus um unser Projekt voranzutreiben. Sprintplanung und Pull Requests bei unseren wöchentlichen Meetings ist jedes Mal eine Freude. David arbeitet da sehr gewissenhaft und sollte ich ab und an schlampig arbeiten, merkt es David sofort und korrigiert mich, was meiner Arbeit wiederum zu gute kommt. Mit David kann ich fachsimpeln bis un beiden der Kopf raucht. Was ich dabei immer wieder bemerkenswert finde, ist, wie David die Ruhe bewahrt, wenn die Dinge manchmal kompliziert werden und wir beide merken, dass wir uns zu sehr verstrickt haben, dann schafft es David irgendwie immer die Dinge aus einen anderen Blickwinkel zu betrachten und uns dann doch zu einer im Grunde simplen Lösung zu führen. Ich habe David vor ein paar Jahren bei einem Vipassana Kurs kennengelernt und war damals schon begeistert von seiner Ehrlichkeit, seinem Einfühlungsvermögen und seinem stetigen Interesse an seinem Gegenüber. Ich bin wirklich froh über die Zeit mit David im Team zu arbeiten und möchte es schon gar nicht mehr missen, wenn er mit den neusten Technologien oder Ideen um die Ecke kommt.",
+      "image": "images/recommendation/christian-strozniak.png"
+    }
+  ]
+}
