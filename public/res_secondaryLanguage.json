@@ -131,7 +131,7 @@
   ],
   "experience": [
     {
-      "company": "Lumenaza GmbH - Internship",
+      "company": "Lumenaza GmbH (erste 6 Monate Praktikant)",
       "title": "React Frontend Entwickler",
       "years": "12.2021 - heute",
       "icon": "fab fa-js experience-icon",
@@ -170,7 +170,7 @@
     },
     {
       "company": "The Odin Project Bootcamp",
-      "title": "Webentwickler",
+      "title": "Webentwickler Selbststudium",
       "years": "06.2020 - heute",
       "icon": "fab fa-js experience-icon",
       "mainTech": ["JavaScript"],

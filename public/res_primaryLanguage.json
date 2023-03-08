@@ -132,7 +132,7 @@
   ],
   "experience": [
     {
-      "company": "Lumenaza GmbH - Internship",
+      "company": "Lumenaza GmbH (first 6 months intern)",
       "title": "React Frontend Developer",
       "years": "12.2021 - present",
       "icon": "fab fa-js experience-icon",
@@ -171,7 +171,7 @@
     },
     {
       "company": "The Odin bootcamp",
-      "title": "Web Developer",
+      "title": "Web Developer Student",
       "years": "06.2020 - present",
       "icon": "fab fa-js experience-icon",
       "mainTech": ["JavaScript"],
